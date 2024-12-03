@@ -1,0 +1,99 @@
+body{
+    height: 105vh;
+}
+
+header{
+    background-color: rgba(255, 228, 196, 0.479);
+    text-align: center;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.671);
+    height: 100px;
+    text-align: center;
+}
+
+button{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+a:hover{
+    color: rgba(255, 255, 255, 0.637);
+}
+
+main{
+    height: 250px;
+    width: 300px;
+    display: flex;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 16px;
+}
+
+div{
+    height: 250px;
+    border: 1px solid black;
+    transition-duration: 1s;
+    animation-timing-function: ease-in-out;
+    flex-grow: 1;
+    background-size: cover;
+    background-position: center center;
+}
+
+#d1{
+    background-image: url(assets/t1.webp);
+    height: 400px;
+}
+
+#d2{
+    background-image: url(assets/t2\ \(1\).jpg);
+    height: 400px;
+}
+
+#d3{
+    background-image: url(assets/t3\ \(1\).jpg);
+    height: 400px;
+}
+
+#d4{
+    background-image: url(assets/d1\ \(1\).jpg);
+    height: 400px;
+}
+
+div:hover{
+    flex-grow: 7;
+}
+
+#san{
+    margin-top: 100px;
+    margin-left: 1250px;
+    top: 40%;
+
+    transform: translate(-50%, -50%);
+    position: relative;
+}
+
+#banner{
+    background: url(assets/gg.jpg);
+    height: 150px;
+    background-size: 100%;
+    border: none;
+    margin-top: 455px;
+}
+
+footer{
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.76);
+}
